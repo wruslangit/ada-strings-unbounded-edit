@@ -1,0 +1,30 @@
+[GENERATED OBJECT FILE]
+b__main_ada_strings_unbounded_edit.o
+[PROJECT FILES]
+/home/wruslan/github/wruslanump/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr
+20210410031948
+[BOUND OBJECT FILES]
+/home/wruslan/github/wruslanump/ada-strings-unbounded-edit/obj/pkg_ada_datetime_stamp.o
+/home/wruslan/github/wruslanump/ada-strings-unbounded-edit/obj/pkg_ada_file_read_display.o
+/home/wruslan/github/wruslanump/ada-strings-unbounded-edit/obj/pkg_ada_linestring_split.o
+/home/wruslan/github/wruslanump/ada-strings-unbounded-edit/obj/pkg_ada_realtime_delays.o
+/home/wruslan/github/wruslanump/ada-strings-unbounded-edit/obj/strings_edit.o
+/home/wruslan/github/wruslanump/ada-strings-unbounded-edit/obj/main_ada_strings_unbounded_edit.o
+[GENERATED SOURCE FILES]
+b__main_ada_strings_unbounded_edit.ads
+b__main_ada_strings_unbounded_edit.adb
+b__main_ada_strings_unbounded_edit.ali
+[RESULTING OPTIONS]
+-L/home/wruslan/github/wruslanump/ada-strings-unbounded-edit/obj/
+-L/home/wruslan/github/wruslanump/ada-strings-unbounded-edit/obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/9/adalib/
+-shared
+-shared-libgcc
+-lgnarl-9
+-lgnat-9
+-lpthread
+-lrt
+-ldl
+[RUN PATH OPTION]
+/usr/lib/gcc/x86_64-linux-gnu/9/adalib/
+/usr/lib

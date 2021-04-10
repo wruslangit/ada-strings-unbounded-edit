@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Locations>
+  <Project>
+    <vfs_file>/home/wruslan/github-tests/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_file>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github-tests/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-tests/ada-strings-unbounded-edit/src/main_ada_strings_unbounded_edit.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

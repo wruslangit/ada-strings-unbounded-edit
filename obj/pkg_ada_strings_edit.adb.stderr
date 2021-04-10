@@ -1,0 +1,2 @@
+cannot generate code for file pkg_ada_strings_edit.adb (missing subunits)
+pkg_ada_strings_edit.adb:183:04: warning: subunit "pkg_ada_strings_edit.text_edit" in file "pkg_ada_strings_edit-text_edit.adb" not found

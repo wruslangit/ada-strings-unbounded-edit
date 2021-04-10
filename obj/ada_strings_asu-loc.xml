@@ -1,0 +1,397 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>/home/wruslan/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_file>
+    <file_marker column=" 4" line=" 110" >
+      <vfs_project>/home/wruslan/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 17" >
+      <vfs_project>/home/wruslan/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-tests/ada-strings-asu/src/pkg-ada-strings-edit/pkg_ada_strings_edit.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 220" >
+      <vfs_project>/home/wruslan/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-tests/ada-strings-asu/src/pkg-ada-strings-edit/pkg_ada_strings_edit.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-tests/ada-strings-asu/src/pkg-ada-strings-edit/pkg_ada_strings_edit.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 335" >
+      <vfs_project>/home/wruslan/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-tests/ada-strings-asu/src/pkg-ada-strings-edit/pkg_ada_strings_edit.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 133" >
+      <vfs_project>/home/wruslan/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-tests/ada-strings-asu/src/pkg-ada-strings-edit/pkg_ada_strings_edit.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 46" line=" 145" >
+      <vfs_project>/home/wruslan/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-tests/ada-strings-asu/src/pkg-ada-strings-edit/pkg_ada_strings_edit.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 183" >
+      <vfs_project>/home/wruslan/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-tests/ada-strings-asu/src/pkg-ada-strings-edit/pkg_ada_strings_edit.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 17" >
+      <vfs_project>/home/wruslan/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-tests/ada-strings-asu/src/pkg-ada-strings-edit/strings_edit.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 5" line=" 220" >
+      <vfs_project>/home/wruslan/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-tests/ada-strings-asu/src/pkg-ada-strings-edit/strings_edit.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-tests/ada-strings-asu/src/pkg-ada-strings-edit/strings_edit.ads</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 8">
+      <vfs_project  />
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 60" line=" 114">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 13">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 52" line=" 30">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 14">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 96">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 100">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 35">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 106">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 13">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-linestring-split/pkg_ada_linestring_split.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 52">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-linestring-split/pkg_ada_linestring_split.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 13">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-linestring-split/pkg_ada_linestring_split.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 31" line=" 45">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-linestring-split/pkg_ada_linestring_split.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-linestring-split/pkg_ada_linestring_split.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 17">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-linestring-split/pkg_ada_linestring_split.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 51">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-linestring-split/pkg_ada_linestring_split.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-realtime-delays/pkg_ada_realtime_delays.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 163">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-realtime-delays/pkg_ada_realtime_delays.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-datetime-stamp/pkg_ada_datetime_stamp.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 17">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-linestring-split/pkg_ada_linestring_split.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-datetime-stamp/pkg_ada_datetime_stamp.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 28" line=" 25">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-datetime-stamp/pkg_ada_datetime_stamp.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-realtime-delays/pkg_ada_realtime_delays.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 90">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-file-read-write/pkg_ada_file_read_write.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 32">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 16">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 51" line=" 29">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-file-read-display/pkg_ada_file_read_display.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 22">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-file-read-display/pkg_ada_file_read_display.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-file-read-display/pkg_ada_file_read_display.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 90">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 16">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-file-read-display/pkg_ada_file_read_display.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 90">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 16">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-file-read-display/pkg_ada_file_read_display.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 97">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-file-read-display/pkg_ada_file_read_display.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 97">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-file-read-display/pkg_ada_file_read_display.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 99">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-file-read-display/pkg_ada_file_read_display.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-file-read-display/pkg_ada_file_read_display.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 23">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-file-read-display/pkg_ada_file_read_display.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 107">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-datetime-stamp/pkg_ada_datetime_stamp.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 28" line=" 25">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-datetime-stamp/pkg_ada_datetime_stamp.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-datetime-stamp/pkg_ada_datetime_stamp.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 126">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-datetime-stamp/pkg_ada_datetime_stamp.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-linestring-split/pkg_ada_linestring_split.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-linestring-split/pkg_ada_linestring_split.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 51">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-linestring-split/pkg_ada_linestring_split.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-realtime-delays/pkg_ada_realtime_delays.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 41">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-realtime-delays/pkg_ada_realtime_delays.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-realtime-delays/pkg_ada_realtime_delays.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-linestring-split/pkg_ada_linestring_split.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-file-read-display/pkg_ada_file_read_display.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-datetime-stamp/pkg_ada_datetime_stamp.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 124">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-datetime-stamp/pkg_ada_datetime_stamp.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 105">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-file-read-display/pkg_ada_file_read_display.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 97">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-file-read-display/pkg_ada_file_read_display.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 97">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-file-read-display/pkg_ada_file_read_display.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 48" line=" 89">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 92">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-linestring-split/pkg_ada_linestring_split.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-datetime-stamp/pkg_ada_datetime_stamp.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 126">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-datetime-stamp/pkg_ada_datetime_stamp.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 124">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-datetime-stamp/pkg_ada_datetime_stamp.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 166">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-realtime-delays/pkg_ada_realtime_delays.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 164">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-realtime-delays/pkg_ada_realtime_delays.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 33">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-realtime-delays/pkg_ada_realtime_delays.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-file-read-display/pkg_ada_file_read_display.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 105">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-datetime-stamp/pkg_ada_datetime_stamp.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-file-read-display/pkg_ada_file_read_display.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 89">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-file-read-display/pkg_ada_file_read_display.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-linestring-split/pkg_ada_linestring_split.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 49">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-linestring-split/pkg_ada_linestring_split.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 145">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-realtime-delays/pkg_ada_realtime_delays.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 49">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-linestring-split/pkg_ada_linestring_split.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 30">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/pkg-ada-linestring-split/pkg_ada_linestring_split.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 32">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 4" line=" 107">
+      <vfs_project >/home/alimankalam/github-tests/ada-strings-asu/ada_strings_asu.gpr</vfs_project>
+      <vfs_file >/home/alimankalam/github-tests/ada-strings-asu/src/main_ada_strings_asu.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

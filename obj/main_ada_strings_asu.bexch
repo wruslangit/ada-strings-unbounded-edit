@@ -1,0 +1,30 @@
+[GENERATED OBJECT FILE]
+b__main_ada_strings_asu.o
+[PROJECT FILES]
+/home/wruslan/github-tests/ada-strings-asu/ada_strings_asu.gpr
+20210330014700
+[BOUND OBJECT FILES]
+/home/wruslan/github-tests/ada-strings-asu/obj/pkg_ada_datetime_stamp.o
+/home/wruslan/github-tests/ada-strings-asu/obj/pkg_ada_file_read_display.o
+/home/wruslan/github-tests/ada-strings-asu/obj/pkg_ada_linestring_split.o
+/home/wruslan/github-tests/ada-strings-asu/obj/pkg_ada_realtime_delays.o
+/home/wruslan/github-tests/ada-strings-asu/obj/strings_edit.o
+/home/wruslan/github-tests/ada-strings-asu/obj/main_ada_strings_asu.o
+[GENERATED SOURCE FILES]
+b__main_ada_strings_asu.ads
+b__main_ada_strings_asu.adb
+b__main_ada_strings_asu.ali
+[RESULTING OPTIONS]
+-L/home/wruslan/github-tests/ada-strings-asu/obj/
+-L/home/wruslan/github-tests/ada-strings-asu/obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/9/adalib/
+-shared
+-shared-libgcc
+-lgnarl-9
+-lgnat-9
+-lpthread
+-lrt
+-ldl
+[RUN PATH OPTION]
+/usr/lib/gcc/x86_64-linux-gnu/9/adalib/
+/usr/lib

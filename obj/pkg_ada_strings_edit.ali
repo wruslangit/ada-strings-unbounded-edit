@@ -1,0 +1,156 @@
+V "GNAT Lib v9"
+A -gnatA
+A -gnat2012
+A -gnat12
+A -mtune=generic
+A -march=x86-64
+P NO ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U pkg_ada_strings_edit%b  pkg_ada_strings_edit.adb  884b83a5 OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+
+U pkg_ada_strings_edit%s  pkg_ada_strings_edit.ads  317bc588 BN EB EE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.maps%s	a-strmap.adb		a-strmap.ali
+
+D ada.ads		20200312110721 76789da1 ada%s
+D a-charac.ads		20200312110721 2d3ec45b ada.characters%s
+D a-chlat1.ads		20200312110721 66457d31 ada.characters.latin_1%s
+D a-ioexce.ads		20200312110721 e4a01f64 ada.io_exceptions%s
+D a-string.ads		20200312110721 90ac6797 ada.strings%s
+D a-strmap.ads		20200312110721 e8bb714a ada.strings.maps%s
+D a-unccon.ads		20200312110721 0e9b276f ada.unchecked_conversion%s
+D pkg_ada_strings_edit.ads  20210410021804 2f29ae64 pkg_ada_strings_edit%s
+D pkg_ada_strings_edit.adb  20210410021628 43c232a5 pkg_ada_strings_edit%b
+D system.ads		20200312110721 4635ec04 system%s
+D s-exctab.ads		20200312110721 54135002 system.exception_table%s
+D s-stalib.ads		20200312110721 09bd3940 system.standard_library%s
+D s-unstyp.ads		20200312110721 34867c83 system.unsigned_types%s
+X 1 ada.ads
+16K9*Ada 20e8 8|127r6 127r29 129r6 130r6 136r43 139r25 141r31 142r31 143r31
+. 9|28r6 28r30
+X 2 a-charac.ads
+16K13*Characters 18e19 8|130r10 136r47
+X 3 a-chlat1.ads
+18K24*Latin_1 296e27 8|130w21 136r58
+34e4*HT{character} 8|136r66
+X 4 a-ioexce.ads
+18K13*IO_Exceptions 30e22 9|28w10 28r34
+X 5 a-string.ads
+16K13*Strings 35e16 8|127r10 127r33 129w10 139r29 141r35 142r35 143r35
+29E9*Alignment 29e44 8|139r37
+29n24*Left{29E9} 8|142r43
+29n30*Right{29E9} 8|143r43
+29n37*Center{29E9} 8|141r43
+X 6 a-strmap.ads
+38K21*Maps 411e21 8|127w18 127r41
+46A9*Character_Set<137A9> 8|137r27 186r27 317r25 9|154r28 164r30 191r25 201r27
+98V13*To_Set{46A9} 8|137s44
+107A9*Character_Mapping(character) 8|276r33 281r33 9|88r33 113r33
+111V13*Value{character} 9|100s16 100s43 106s13 106s49 132s16 132s43 138s13
+. 138s49
+137A9 Character_Set_Internal(boolean)<character>
+X 8 pkg_ada_strings_edit.ads
+132K9*pkg_ada_strings_edit 133r27 332E13 335l5 335e25 9|30b14 220l5 220t25
+134N4*MaxSmall
+135a4*Figures{string}
+136a4*Blanks{string} 137r52
+137a4*SpaceAndTab{6|46A9}
+139E12*Alignment{5|29E9} 141r13 142r13 143r13 212r31 239r31 9|171r34 179r34
+. 208r31 216r31
+141e4*Center=141:43{5|29E9}
+142e4*Left=142:43{5|29E9} 212r44 239r44 9|171r47 179r47 208r44 216r44
+143e4*Right=143:43{5|29E9}
+145I12*NumberBase{integer}
+163U14*Get 164>17 165=17 166>17 9|193b14
+164a17 Source{string} 9|194b17
+165i17 Pointer{integer} 9|195b17
+166e17 Blank{character} 9|196b17
+183U14*Get 184>17 185=17 186>17 9|198b14
+184a17 Source{string} 9|199b17
+185i17 Pointer{integer} 9|200b17
+186a17 Blanks{6|46A9} 9|201b17
+207U14*Put 208=17 209=17 210>17 211>17 212>17 213>17 9|211b14
+208a17 Destination{string} 9|212b17
+209i17 Pointer{integer} 9|213b17
+210e17 Value{character} 9|214b17
+211i17 Field{natural} 9|215b17
+212e17 Justify{139E12} 9|216b17
+213e17 Fill{character} 9|217b17
+234U14*Put 235=17 236=17 237>17 238>17 239>17 240>17 9|203b14
+235a17 Destination{string} 9|204b17
+236i17 Pointer{integer} 9|205b17
+237a17 Value{string} 9|206b17
+238i17 Field{natural} 9|207b17
+239e17 Justify{139E12} 9|208b17
+240e17 Fill{character} 9|209b17
+269V13*Is_Prefix{boolean} 269>24 269>32 9|55b13 67l8 67t17
+269a24 Prefix{string} 9|55b24 58r10 60r13 62r16 65r34
+269a32 Source{string} 9|55b32 60r30 63r16 64r19 65r19
+270V13*Is_Prefix{boolean} 271>16 271>24 272>16 9|69b13 84l8 84t17
+271a16 Prefix{string} 9|69b24 80r39 82r10 82r46
+271a24 Source{string} 9|69b32 73r21 75r24 77r23 80r10 82r19
+272i16 Pointer{integer} 9|69b49 73r10 75r13 77r13 80r24 82r27 82r36
+274V13*Is_Prefix{boolean} 275>16 275>24 276>16 9|86b13 108l8 108t17
+275a16 Prefix{string} 9|87b16 91r10 93r13 99r19 99r33 100r28 106r25 106r33
+275a24 Source{string} 9|87b24 93r29 97r25 100r55 106r61
+276a16 Map{6|107A9} 9|88b16 100r23 100r50 106r20 106r56
+278V13*Is_Prefix{boolean} 279>16 279>24 280>16 281>16 9|110b13 140l8 140t17
+279a16 Prefix{string} 9|111b16 123r41 131r19 131r33 132r28 138r25 138r33
+279a24 Source{string} 9|111b24 116r23 118r26 120r27 123r13 132r55 138r61
+280i16 Pointer{integer} 9|112b16 116r13 118r16 120r16 123r27 129r25
+281a16 Map{6|107A9} 9|113b16 132r23 132r50 138r20 138r56
+298V13*Trim{string} 299>16 300>16 9|185b13
+299a16 Source{string} 9|186b16
+300e16 Blank{character} 9|187b16
+315V13*Trim{string} 316>16 317>16 9|189b13
+316a16 Source{string} 9|190b16
+317a16 Blanks{6|46A9} 9|191b16
+332V13 GetDigit{natural} 332>23 333r19 9|32b13 53l8 53t16
+332e23 Symbol{character} 9|32b23 34r12
+X 9 pkg_ada_strings_edit.adb
+97i10 J{integer} 100r63 103m13 103r18 106r69
+99i14 I{integer} 100r36
+129i10 J{integer} 132r63 135m13 135r18 138r69
+131i14 I{integer} 132r36
+147K12 Text_Edit 182l8 182e17 183b17 188r38 192r38 197r25 202r25 210r25 218r25
+148V16*TrimCharacter{string} 149>19 150>19 188r48
+149a19 Source{string}
+150e19 Blank{character}
+152V16*TrimSet{string} 153>19 154>19 192r48
+153a19 Source{string}
+154a19 Blanks{6|46A9}
+156U17*GetCharacter 157>20 158=20 159>20 197r35
+157a20 Source{string}
+158i20 Pointer{integer}
+159e20 Blank{character}
+161U17*GetSet 162>20 163=20 164>20 202r35
+162a20 Source{string}
+163i20 Pointer{integer}
+164a20 Blanks{6|46A9}
+166U17*PutString 167=20 168=20 169>20 170>20 171>20 172>20 210r35
+167a20 Destination{string}
+168i20 Pointer{integer}
+169a20 Value{string}
+170i20 Field{natural}
+171e20 Justify{8|139E12}
+172e20 Fill{character}
+174U17*PutCharacter 175=20 176=20 177>20 178>20 179>20 180>20 218r35
+175a20 Destination{string}
+176i20 Pointer{integer}
+177e20 Value{character}
+178i20 Field{natural}
+179e20 Justify{8|139E12}
+180e20 Fill{character}
+
