@@ -270,6 +270,29 @@ Link
 [2021-04-10 11:43:40] process terminated successfully, elapsed time: 00.20s
 
 ===========================================================
+wruslan@HPEliteBk8470p-ubstudio-20:~/github/wruslanump/ada-strings-unbounded-edit$ git add .
+wruslan@HPEliteBk8470p-ubstudio-20:~/github/wruslanump/ada-strings-unbounded-edit$ git commit -m "initial commit"
+[main 28d30c4] initial commit
+ Committer: wruslan <wruslan@HPEliteBk8470p-ubstudio-20.04.2lts-rt>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 213 files changed, 44260 insertions(+)
+ create mode 100644 ada_strings_unbounded_edit.gpr
+ create mode 100644 docs/ada-split-strings.txt
+....
+....
+
+===========================================================
 
 
 

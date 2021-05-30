@@ -37,7 +37,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#a80cb6b4#;
+   u00001 : constant Version_32 := 16#2b44eef5#;
    pragma Export (C, u00001, "main_ada_strings_unbounded_editB");
    u00002 : constant Version_32 := 16#050ff2f0#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -417,30 +417,44 @@ package ada_main is
    pragma Export (C, u00189, "system__img_decB");
    u00190 : constant Version_32 := 16#e818e5df#;
    pragma Export (C, u00190, "system__img_decS");
-   u00191 : constant Version_32 := 16#cc0876a8#;
-   pragma Export (C, u00191, "pkg_ada_file_read_displayB");
-   u00192 : constant Version_32 := 16#55d82647#;
-   pragma Export (C, u00192, "pkg_ada_file_read_displayS");
-   u00193 : constant Version_32 := 16#d28dff70#;
-   pragma Export (C, u00193, "pkg_ada_linestring_splitB");
-   u00194 : constant Version_32 := 16#d95dbdbe#;
-   pragma Export (C, u00194, "pkg_ada_linestring_splitS");
-   u00195 : constant Version_32 := 16#e5b19cf0#;
-   pragma Export (C, u00195, "pkg_ada_realtime_delaysB");
-   u00196 : constant Version_32 := 16#f93ecfaf#;
-   pragma Export (C, u00196, "pkg_ada_realtime_delaysS");
-   u00197 : constant Version_32 := 16#2353cf5b#;
-   pragma Export (C, u00197, "ada__real_time__delaysB");
-   u00198 : constant Version_32 := 16#0a5c26d7#;
-   pragma Export (C, u00198, "ada__real_time__delaysS");
-   u00199 : constant Version_32 := 16#58cefe3c#;
-   pragma Export (C, u00199, "strings_editB");
-   u00200 : constant Version_32 := 16#63d27009#;
-   pragma Export (C, u00200, "strings_editS");
-   u00201 : constant Version_32 := 16#2323a8af#;
-   pragma Export (C, u00201, "system__memoryB");
-   u00202 : constant Version_32 := 16#1f488a30#;
-   pragma Export (C, u00202, "system__memoryS");
+   u00191 : constant Version_32 := 16#41247c34#;
+   pragma Export (C, u00191, "pkg_ada_linestring_splitB");
+   u00192 : constant Version_32 := 16#55e1913c#;
+   pragma Export (C, u00192, "pkg_ada_linestring_splitS");
+   u00193 : constant Version_32 := 16#b5988c27#;
+   pragma Export (C, u00193, "gnatS");
+   u00194 : constant Version_32 := 16#dbf24c7a#;
+   pragma Export (C, u00194, "gnat__string_splitB");
+   u00195 : constant Version_32 := 16#3d848bbe#;
+   pragma Export (C, u00195, "gnat__string_splitS");
+   u00196 : constant Version_32 := 16#932a4690#;
+   pragma Export (C, u00196, "system__concat_4B");
+   u00197 : constant Version_32 := 16#3851c724#;
+   pragma Export (C, u00197, "system__concat_4S");
+   u00198 : constant Version_32 := 16#a83b7c85#;
+   pragma Export (C, u00198, "system__concat_6B");
+   u00199 : constant Version_32 := 16#94f2c1b6#;
+   pragma Export (C, u00199, "system__concat_6S");
+   u00200 : constant Version_32 := 16#608e2cd1#;
+   pragma Export (C, u00200, "system__concat_5B");
+   u00201 : constant Version_32 := 16#c16baf2a#;
+   pragma Export (C, u00201, "system__concat_5S");
+   u00202 : constant Version_32 := 16#e5b19cf0#;
+   pragma Export (C, u00202, "pkg_ada_realtime_delaysB");
+   u00203 : constant Version_32 := 16#f93ecfaf#;
+   pragma Export (C, u00203, "pkg_ada_realtime_delaysS");
+   u00204 : constant Version_32 := 16#2353cf5b#;
+   pragma Export (C, u00204, "ada__real_time__delaysB");
+   u00205 : constant Version_32 := 16#0a5c26d7#;
+   pragma Export (C, u00205, "ada__real_time__delaysS");
+   u00206 : constant Version_32 := 16#58cefe3c#;
+   pragma Export (C, u00206, "strings_editB");
+   u00207 : constant Version_32 := 16#63d27009#;
+   pragma Export (C, u00207, "strings_editS");
+   u00208 : constant Version_32 := 16#2323a8af#;
+   pragma Export (C, u00208, "system__memoryB");
+   u00209 : constant Version_32 := 16#1f488a30#;
+   pragma Export (C, u00209, "system__memoryS");
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
@@ -507,6 +521,12 @@ package ada_main is
    --  system.concat_2%b
    --  system.concat_3%s
    --  system.concat_3%b
+   --  system.concat_4%s
+   --  system.concat_4%b
+   --  system.concat_5%s
+   --  system.concat_5%b
+   --  system.concat_6%s
+   --  system.concat_6%b
    --  system.traceback%s
    --  system.traceback%b
    --  system.case_util%s
@@ -580,6 +600,7 @@ package ada_main is
    --  ada.tags%b
    --  ada.streams%s
    --  ada.streams%b
+   --  gnat%s
    --  system.fat_llf%s
    --  system.file_control_block%s
    --  system.finalization_root%s
@@ -634,10 +655,10 @@ package ada_main is
    --  ada.real_time.delays%b
    --  ada.text_io%s
    --  ada.text_io%b
+   --  gnat.string_split%s
+   --  gnat.string_split%b
    --  pkg_ada_datetime_stamp%s
    --  pkg_ada_datetime_stamp%b
-   --  pkg_ada_file_read_display%s
-   --  pkg_ada_file_read_display%b
    --  pkg_ada_linestring_split%s
    --  pkg_ada_linestring_split%b
    --  pkg_ada_realtime_delays%s

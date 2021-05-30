@@ -8,11 +8,12 @@ with Ada.Real_Time;
 use  Ada.Real_Time;
 with Ada.Strings.Unbounded;
 
+
+
 -- IMPORT USER-DEFINED ADA PACKAGES
 with pkg_ada_datetime_stamp;
 with pkg_ada_realtime_delays;
 with pkg_ada_linestring_split;
-with pkg_ada_file_read_display;
 with strings_edit;
 
 -- ========================================================
@@ -29,13 +30,37 @@ is
    package PADTS   renames pkg_ada_datetime_stamp;
    package PARTD   renames pkg_ada_realtime_delays;
    package PALSS   renames pkg_ada_linestring_split;
-   package PAFRD   renames pkg_ada_file_read_display;
    package PASE    renames strings_edit;
       
    -- PROCEDURE-WIDE VARIABLE DEFINITIONS
    startClock, finishClock   : ART.Time;  
    -- startTestClock, finishTestClock : ART.Time;
    -- deadlineDuration : ART.Time_Span;
+   
+   
+   -- INPUT FILE 
+   inp_fhandle      : ATIO.File_Type;
+   inp_fmode        : ATIO.File_Mode  := ATIO.In_File;
+   -- inp_fname        : String := "files/bismillah.ngc"; 
+   inp_fname        : String := "files/ngc-code.ngc"; 
+   inp_fform        : String := "shared=yes"; 
+   inp_fOwnID       : String := "bsm-001";
+   
+   inp_lineCount    : Integer := 0;
+   inp_UBlineStr    : ASU.Unbounded_String;
+   
+   -- OUTPUT FILES
+   out_fhandle_01    : ATIO.File_Type;
+   out_fhandle_02    : ATIO.File_Type;
+   out_fhandle_03    : ATIO.File_Type;
+   
+   out_fmode_01      : ATIO.File_Mode  := ATIO.Out_File;
+   out_fmode_02      : ATIO.File_Mode  := ATIO.Out_File;
+   out_fmode_03      : ATIO.File_Mode  := ATIO.Out_File;
+   
+   out_fname_01  : String := "files/ngc-code.ngc_file_01.txt";
+   out_fname_02  : String := "files/ngc-code.ngc_file_02.txt";
+   out_fname_03  : String := "files/ngc-code.ngc_file_03.txt";
    
   
    -- =====================================================
@@ -73,12 +98,53 @@ begin  -- =================================================
    ATIO.Put_Line ("STARTED: main Bismillah 3 times WRY");
    PADTS.dtstamp; ATIO.Put_Line ("Running inside GNAT Studio Community");
    ATIO.New_Line;
+   -- about_this_procedure;
    
    -- CODE BEGINS HERE
    -- =====================================================
-   -- about_this_procedure;
-      
    
+      
+   -- OPEN INPUT FILE WITH SHARING = YES 
+   -- CREATE OUTPUT FILES
+   ATIO.Open (inp_fhandle, inp_fmode, inp_fname, inp_fform); 
+   ATIO.Create (out_fhandle_01, out_fmode_01, out_fname_01); 
+   ATIO.Create (out_fhandle_02, out_fmode_02, out_fname_02);
+   -- ATIO.Create (out_fhandle_03, out_fmode_03, out_fname_03);
+   
+    -- GET TOTAL LINE COUNT
+   while not ATIO.End_Of_File (inp_fhandle) loop
+      inp_UBlineStr := ASU.To_Unbounded_String(ATIO.Get_Line (inp_fhandle));
+      inp_lineCount := inp_lineCount + 1;
+   end loop;   
+   ATIO.Put_line ("Total inp_lineCount = " & Integer'Image(inp_lineCount));
+   
+   ATIO.reset(inp_fhandle); -- Set line pointer back to the top of file
+   inp_lineCount := 0;
+    
+   -- PROCESS EACH LINE
+   while not ATIO.End_Of_File (inp_fhandle) loop
+      inp_UBlineStr := ASU.To_Unbounded_String(ATIO.Get_Line (inp_fhandle));
+      inp_lineCount := inp_lineCount + 1;
+      
+      -- WRITE LINE TO SCREEN
+      ATIO.Put_Line (ATIO.Standard_Output, ASU.To_String (inp_UBlineStr));
+   
+      -- WRITE LINE TO FILE
+      ATIO.Put_Line (out_fhandle_01, ASU.To_String (inp_UBlineStr));
+      
+      -- TOKENIZE EACH LINE AND WRITE TO FILE 
+      PALSS.tokenize_line (ASU.To_String (inp_UBlineStr), out_fhandle_02, inp_lineCount);
+      
+      -- VECTORIZE EACH LINE AND WRITE TO FILE
+      
+      
+      
+   end loop;  
+   ATIO.Close (out_fhandle_01);
+   ATIO.Close (out_fhandle_02);
+   -- ATIO.Close (out_fhandle_03);
+   ATIO.Close (inp_fhandle);
+      
    -- CODE ENDS HERE
    -- =====================================================
    ATIO.New_Line; PADTS.dtstamp;

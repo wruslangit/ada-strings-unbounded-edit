@@ -23,6 +23,7 @@ package body ada_main is
    E037 : Short_Integer; pragma Import (Ada, E037, "system__traceback__symbolic_E");
    E132 : Short_Integer; pragma Import (Ada, E132, "ada__tags_E");
    E149 : Short_Integer; pragma Import (Ada, E149, "ada__streams_E");
+   E193 : Short_Integer; pragma Import (Ada, E193, "gnat_E");
    E166 : Short_Integer; pragma Import (Ada, E166, "system__file_control_block_E");
    E151 : Short_Integer; pragma Import (Ada, E151, "system__finalization_root_E");
    E147 : Short_Integer; pragma Import (Ada, E147, "ada__finalization_E");
@@ -37,11 +38,11 @@ package body ada_main is
    E174 : Short_Integer; pragma Import (Ada, E174, "ada__calendar__time_zones_E");
    E097 : Short_Integer; pragma Import (Ada, E097, "ada__real_time_E");
    E161 : Short_Integer; pragma Import (Ada, E161, "ada__text_io_E");
+   E195 : Short_Integer; pragma Import (Ada, E195, "gnat__string_split_E");
    E168 : Short_Integer; pragma Import (Ada, E168, "pkg_ada_datetime_stamp_E");
-   E192 : Short_Integer; pragma Import (Ada, E192, "pkg_ada_file_read_display_E");
-   E194 : Short_Integer; pragma Import (Ada, E194, "pkg_ada_linestring_split_E");
-   E196 : Short_Integer; pragma Import (Ada, E196, "pkg_ada_realtime_delays_E");
-   E200 : Short_Integer; pragma Import (Ada, E200, "strings_edit_E");
+   E192 : Short_Integer; pragma Import (Ada, E192, "pkg_ada_linestring_split_E");
+   E203 : Short_Integer; pragma Import (Ada, E203, "pkg_ada_realtime_delays_E");
+   E207 : Short_Integer; pragma Import (Ada, E207, "strings_edit_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
@@ -223,6 +224,8 @@ package body ada_main is
       E132 := E132 + 1;
       Ada.Streams'Elab_Spec;
       E149 := E149 + 1;
+      Gnat'Elab_Spec;
+      E193 := E193 + 1;
       System.File_Control_Block'Elab_Spec;
       E166 := E166 + 1;
       System.Finalization_Root'Elab_Spec;
@@ -255,16 +258,16 @@ package body ada_main is
       Ada.Text_Io'Elab_Spec;
       Ada.Text_Io'Elab_Body;
       E161 := E161 + 1;
+      Gnat.String_Split'Elab_Spec;
+      E195 := E195 + 1;
       pkg_ada_datetime_stamp'elab_body;
       E168 := E168 + 1;
-      pkg_ada_file_read_display'elab_body;
-      E192 := E192 + 1;
       pkg_ada_linestring_split'elab_body;
-      E194 := E194 + 1;
+      E192 := E192 + 1;
       pkg_ada_realtime_delays'elab_body;
-      E196 := E196 + 1;
+      E203 := E203 + 1;
       strings_edit'elab_spec;
-      E200 := E200 + 1;
+      E207 := E207 + 1;
    end adainit;
 
    procedure Ada_Main_Program;
@@ -300,14 +303,13 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   /home/wruslan/github/wruslanump/ada-strings-unbounded-edit/obj/pkg_ada_datetime_stamp.o
-   --   /home/wruslan/github/wruslanump/ada-strings-unbounded-edit/obj/pkg_ada_file_read_display.o
-   --   /home/wruslan/github/wruslanump/ada-strings-unbounded-edit/obj/pkg_ada_linestring_split.o
-   --   /home/wruslan/github/wruslanump/ada-strings-unbounded-edit/obj/pkg_ada_realtime_delays.o
-   --   /home/wruslan/github/wruslanump/ada-strings-unbounded-edit/obj/strings_edit.o
-   --   /home/wruslan/github/wruslanump/ada-strings-unbounded-edit/obj/main_ada_strings_unbounded_edit.o
-   --   -L/home/wruslan/github/wruslanump/ada-strings-unbounded-edit/obj/
-   --   -L/home/wruslan/github/wruslanump/ada-strings-unbounded-edit/obj/
+   --   /home/wruslan/github/wruslangit/ada-strings-unbounded-edit/obj/pkg_ada_datetime_stamp.o
+   --   /home/wruslan/github/wruslangit/ada-strings-unbounded-edit/obj/pkg_ada_linestring_split.o
+   --   /home/wruslan/github/wruslangit/ada-strings-unbounded-edit/obj/pkg_ada_realtime_delays.o
+   --   /home/wruslan/github/wruslangit/ada-strings-unbounded-edit/obj/strings_edit.o
+   --   /home/wruslan/github/wruslangit/ada-strings-unbounded-edit/obj/main_ada_strings_unbounded_edit.o
+   --   -L/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/obj/
+   --   -L/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/obj/
    --   -L/usr/lib/gcc/x86_64-linux-gnu/9/adalib/
    --   -shared
    --   -lgnarl-9

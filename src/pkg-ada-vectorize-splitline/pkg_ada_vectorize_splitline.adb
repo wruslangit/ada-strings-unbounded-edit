@@ -1,7 +1,7 @@
--- File   : pkg_ada_linestring_split.adb
--- Date   : Sun 07 Mar 2021 06:00:42 PM +08
+-- File   : pkg_ada_vectorize_splitline.adb
+-- Date   : Sun 30 May 2021 05:11:11 PM +08
 -- Author : wruslandr@gmail.com
--- Version: 1.0 Sun 07 Mar 2021 06:00:42 PM +08
+-- Version: Sun 30 May 2021 05:11:11 PM +08
 -- ========================================================
 with Ada.Text_IO;
 use  Ada.Text_IO;
@@ -16,7 +16,7 @@ with GNAT.String_Split;
 -- use  GNAT;
 
 -- ========================================================
-package body pkg_ada_linestring_split 
+package body pkg_ada_vectorize_splitline 
 -- ========================================================
 --   with SPARK_Mode => on
 is
@@ -87,38 +87,11 @@ is
    
    
    
-   -- =====================================================
-   procedure display_help_file is 
-   -- =====================================================
-      inp_fhandle : ATIO.File_Type; 
-      inp_fmode   : ATIO.File_Mode := ATIO.In_File;
-      inp_fname   : String := "src/pkg-ada-linestring-split/pkg_ada_linestring_split.hlp";
-      inp_UBlineStr : ASU.Unbounded_String;
-   
-   begin
-      ATIO.Open (inp_fhandle, inp_fmode, inp_fname); 
-      
-      -- Traverse file line by line and display line to screen
-      while not ATIO.End_Of_File (inp_fhandle) loop
-         inp_UBlineStr := ASU.To_Unbounded_String(ATIO.Get_Line (inp_fhandle));
-         ATIO.Put_Line (ATIO.Standard_Output, ASU.To_String (inp_UBlineStr)); 
-      end loop;   
-      
-      ATIO.Close(inp_fhandle);
-   end display_help_file;
-     
-   -- =====================================================
-   procedure about_package is 
-   -- =====================================================  
-   begin
-      -- Read from external text file and display      
-      display_help_file;
-      
-   end about_package; 
+
   
 -- ========================================================
 begin -- PACKAGE BEGIN
    null;
 -- ========================================================
-end pkg_ada_linestring_split;
+end pkg_ada_vectorize_splitline;
 -- ========================================================
