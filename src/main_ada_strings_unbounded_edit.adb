@@ -8,13 +8,12 @@ with Ada.Real_Time;
 use  Ada.Real_Time;
 with Ada.Strings.Unbounded;
 
-
-
 -- IMPORT USER-DEFINED ADA PACKAGES
 with pkg_ada_datetime_stamp;
 with pkg_ada_realtime_delays;
 with pkg_ada_linestring_split;
 with strings_edit;
+with pkg_ada_vectorize_splitline;
 
 -- ========================================================
 procedure main_ada_strings_unbounded_edit
@@ -31,6 +30,7 @@ is
    package PARTD   renames pkg_ada_realtime_delays;
    package PALSS   renames pkg_ada_linestring_split;
    package PASE    renames strings_edit;
+   package PAVSL   renames pkg_ada_vectorize_splitline;
       
    -- PROCEDURE-WIDE VARIABLE DEFINITIONS
    startClock, finishClock   : ART.Time;  
@@ -109,7 +109,7 @@ begin  -- =================================================
    ATIO.Open (inp_fhandle, inp_fmode, inp_fname, inp_fform); 
    ATIO.Create (out_fhandle_01, out_fmode_01, out_fname_01); 
    ATIO.Create (out_fhandle_02, out_fmode_02, out_fname_02);
-   -- ATIO.Create (out_fhandle_03, out_fmode_03, out_fname_03);
+   ATIO.Create (out_fhandle_03, out_fmode_03, out_fname_03);
    
     -- GET TOTAL LINE COUNT
    while not ATIO.End_Of_File (inp_fhandle) loop
@@ -127,22 +127,22 @@ begin  -- =================================================
       inp_lineCount := inp_lineCount + 1;
       
       -- WRITE LINE TO SCREEN
-      ATIO.Put_Line (ATIO.Standard_Output, ASU.To_String (inp_UBlineStr));
+      -- ATIO.Put_Line (ATIO.Standard_Output, ASU.To_String (inp_UBlineStr));
    
       -- WRITE LINE TO FILE
       ATIO.Put_Line (out_fhandle_01, ASU.To_String (inp_UBlineStr));
       
       -- TOKENIZE EACH LINE AND WRITE TO FILE 
-      PALSS.tokenize_line (ASU.To_String (inp_UBlineStr), out_fhandle_02, inp_lineCount);
+      -- PALSS.tokenize_line (ASU.To_String (inp_UBlineStr), out_fhandle_02, inp_lineCount);
       
       -- VECTORIZE EACH LINE AND WRITE TO FILE
-      
-      
+      -- To mark with line numbers
+      PAVSL.vectorize_eachline (ASU.To_String (inp_UBlineStr), out_fhandle_02, out_fhandle_03, inp_lineCount); 
       
    end loop;  
    ATIO.Close (out_fhandle_01);
    ATIO.Close (out_fhandle_02);
-   -- ATIO.Close (out_fhandle_03);
+   ATIO.Close (out_fhandle_03);
    ATIO.Close (inp_fhandle);
       
    -- CODE ENDS HERE

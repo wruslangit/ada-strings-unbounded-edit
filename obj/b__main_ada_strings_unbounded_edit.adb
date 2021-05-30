@@ -42,7 +42,8 @@ package body ada_main is
    E168 : Short_Integer; pragma Import (Ada, E168, "pkg_ada_datetime_stamp_E");
    E192 : Short_Integer; pragma Import (Ada, E192, "pkg_ada_linestring_split_E");
    E203 : Short_Integer; pragma Import (Ada, E203, "pkg_ada_realtime_delays_E");
-   E207 : Short_Integer; pragma Import (Ada, E207, "strings_edit_E");
+   E207 : Short_Integer; pragma Import (Ada, E207, "pkg_ada_vectorize_splitline_E");
+   E209 : Short_Integer; pragma Import (Ada, E209, "strings_edit_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
@@ -266,8 +267,10 @@ package body ada_main is
       E192 := E192 + 1;
       pkg_ada_realtime_delays'elab_body;
       E203 := E203 + 1;
-      strings_edit'elab_spec;
+      pkg_ada_vectorize_splitline'elab_body;
       E207 := E207 + 1;
+      strings_edit'elab_spec;
+      E209 := E209 + 1;
    end adainit;
 
    procedure Ada_Main_Program;
@@ -306,6 +309,7 @@ package body ada_main is
    --   /home/wruslan/github/wruslangit/ada-strings-unbounded-edit/obj/pkg_ada_datetime_stamp.o
    --   /home/wruslan/github/wruslangit/ada-strings-unbounded-edit/obj/pkg_ada_linestring_split.o
    --   /home/wruslan/github/wruslangit/ada-strings-unbounded-edit/obj/pkg_ada_realtime_delays.o
+   --   /home/wruslan/github/wruslangit/ada-strings-unbounded-edit/obj/pkg_ada_vectorize_splitline.o
    --   /home/wruslan/github/wruslangit/ada-strings-unbounded-edit/obj/strings_edit.o
    --   /home/wruslan/github/wruslangit/ada-strings-unbounded-edit/obj/main_ada_strings_unbounded_edit.o
    --   -L/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/obj/

@@ -19,7 +19,7 @@ RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U main_ada_strings_unbounded_edit%b  main_ada_strings_unbounded_edit.adb  2b44eef5 NE OO SU IL
+U main_ada_strings_unbounded_edit%b  main_ada_strings_unbounded_edit.adb  e7526591 NE OO SU IL
 W ada%s			ada.ads			ada.ali
 Z ada.exceptions%s	a-except.adb		a-except.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
@@ -30,6 +30,7 @@ W ada.text_io%s		a-textio.adb		a-textio.ali
 W pkg_ada_datetime_stamp%s  pkg_ada_datetime_stamp.adb  pkg_ada_datetime_stamp.ali
 W pkg_ada_linestring_split%s  pkg_ada_linestring_split.adb  pkg_ada_linestring_split.ali
 W pkg_ada_realtime_delays%s  pkg_ada_realtime_delays.adb  pkg_ada_realtime_delays.ali
+W pkg_ada_vectorize_splitline%s  pkg_ada_vectorize_splitline.adb  pkg_ada_vectorize_splitline.ali
 W strings_edit%s	strings_edit.adb	strings_edit.ali
 Z system.concat_2%s	s-conca2.adb		s-conca2.ali
 Z system.img_int%s	s-imgint.adb		s-imgint.ali
@@ -54,10 +55,11 @@ D a-unccon.ads		20200312110721 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20200312110721 5ab55268 interfaces%s
 D i-c.ads		20200312110721 5421119b interfaces.c%s
 D i-cstrea.ads		20200312110721 e53d8b8e interfaces.c_streams%s
-D main_ada_strings_unbounded_edit.adb  20210530091527 b7c9ef22 main_ada_strings_unbounded_edit%b
+D main_ada_strings_unbounded_edit.adb  20210530150122 1453f1d0 main_ada_strings_unbounded_edit%b
 D pkg_ada_datetime_stamp.ads  20210330052953 cf0a71cd pkg_ada_datetime_stamp%s
 D pkg_ada_linestring_split.ads  20210530072213 dfbcde15 pkg_ada_linestring_split%s
 D pkg_ada_realtime_delays.ads  20210330053253 fb7e33dc pkg_ada_realtime_delays%s
+D pkg_ada_vectorize_splitline.ads  20210530112617 6f8c9596 pkg_ada_vectorize_splitline%s
 D strings_edit.ads	20210410022332 7d801be5 strings_edit%s
 D system.ads		20200312110721 4635ec04 system%s
 D s-atacco.ads		20200312110721 4c36d12f system.address_to_access_conversions%s
@@ -93,47 +95,48 @@ D s-traent.ads		20200312110721 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20200312110721 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20200312110721 1b7d22d2 system.wch_con%s
 X 1 ada.ads
-16K9*Ada 20e8 18|6r6 7r6 8r6 9r6 25r28 26r28 27r28
+16K9*Ada 20e8 18|6r6 7r6 8r6 9r6 24r28 25r28 26r28
 X 7 a-reatim.ads
-39K13*Real_Time 185e18 18|7w10 8r10 26r32
+39K13*Real_Time 185e18 18|7w10 8r10 25r32
 49O9*Time<duration> 18|36r36
 61V13*Clock{49O9} 18|97s22 152s23
 X 9 a-string.ads
-16K13*Strings 35e16 18|9r10 27r32
+16K13*Strings 35e16 18|9r10 26r32
 X 11 a-strunb.ads
-76K21*Unbounded 491e26 18|9w18 27r40
+76K21*Unbounded 491e26 18|9w18 26r40
 79R9*Unbounded_String<5|43R9> 474e14 18|50r27 72r27
 94V13*To_Unbounded_String{79R9} 18|79s31 116s28 126s28
-100V13*To_String{string} 18|80s51 130s48 133s42 136s32
+100V13*To_String{string} 18|80s51 133s42 140s37
 X 13 a-textio.ads
-49K13*Text_IO 471e16 18|6w10 25r32
+49K13*Text_IO 471e16 18|6w10 24r32
 52P9*File_Type 18|42r28 53r29 54r29 55r29 69r26
 53E9*File_Mode 53e54 18|43r28 57r29 58r29 59r29 70r26
 53n23*In_File{53E9} 18|43r47 70r44
 53n32*Out_File{53E9} 18|57r48 58r48 59r48
-86U14*Create 18|110s9 111s9
+86U14*Create 18|110s9 111s9 112s9
 92U14*Open 18|75s12 109s9
-98U14*Close 18|83s12 143s9 144s9 146s9
+98U14*Close 18|83s12 143s9 144s9 145s9 146s9
 101U14*Reset 18|121s9
-118V13*Standard_Output{52P9} 18|80s30 130s27
+118V13*Standard_Output{52P9} 18|80s30
 166U14*New_Line 18|100s9 150s9
 183V13*End_Of_File{boolean} 18|78s22 115s19 125s19
 242U14*Put 18|153s24
 253V13*Get_Line{string} 18|79s56 116s53 126s53
-259U14*Put_Line 18|80s15 130s12 133s12
+259U14*Put_Line 18|80s15 133s12
 263U14*Put_Line 18|98s9 99s24 119s9 151s9
 X 18 main_ada_strings_unbounded_edit.adb
-20U11*main_ada_strings_unbounded_edit 20b11 156l5 156t36
-25K12 ATIO=25:32 42r23 43r23 43r42 53r24 54r24 55r24 57r24 57r43 58r24 58r43
+19U11*main_ada_strings_unbounded_edit 19b11 156l5 156t36
+24K12 ATIO=24:32 42r23 43r23 43r42 53r24 54r24 55r24 57r24 57r43 58r24 58r43
 . 59r24 59r43 69r21 70r21 70r39 75r7 78r17 79r51 80r10 80r25 83r7 98r4 99r19
-. 100r4 109r4 110r4 111r4 115r14 116r48 119r4 121r4 125r14 126r48 130r7 130r22
-. 133r7 143r4 144r4 146r4 150r4 151r4 153r19
-26K12 ART=26:32 36r32 97r18 152r19
-27K12 ASU=27:40 50r23 72r23 79r27 80r47 116r24 126r24 130r44 133r38 136r28
-30K12 PADTS=30:28 97r29 99r4 150r19 153r4
-31K12 PARTD=31:28 154r4
-32K12 PALSS=32:28 136r7
-33K12 PASE=33:28
+. 100r4 109r4 110r4 111r4 112r4 115r14 116r48 119r4 121r4 125r14 126r48 133r7
+. 143r4 144r4 145r4 146r4 150r4 151r4 153r19
+25K12 ART=25:32 36r32 97r18 152r19
+26K12 ASU=26:40 50r23 72r23 79r27 80r47 116r24 126r24 133r38 140r33
+29K12 PADTS=29:28 97r29 99r4 150r19 153r4
+30K12 PARTD=30:28 154r4
+31K12 PALSS=31:28
+32K12 PASE=32:28
+33K12 PAVSL=33:28 140r7
 36o4 startClock{7|49O9} 97m4 154r38
 36o16 finishClock{7|49O9} 152m4 154r50
 42p4 inp_fhandle{13|52P9} 109m15 109r15 115r32 116r63 121m15 121r15 125r32
@@ -142,17 +145,17 @@ X 18 main_ada_strings_unbounded_edit.adb
 45a4 inp_fname{string} 109r39
 46a4 inp_fform{string} 109r50
 47a4 inp_fOwnID{string}
-49i4 inp_lineCount{integer} 117m7 117r24 119r60 122m4 127m7 127r24 136r75
-50r4 inp_UBlineStr{11|79R9} 116m7 126m7 130r59 133r53 136r43
+49i4 inp_lineCount{integer} 117m7 117r24 119r60 122m4 127m7 127r24 140r96
+50r4 inp_UBlineStr{11|79R9} 116m7 126m7 133r53 140r48
 53p4 out_fhandle_01{13|52P9} 110m17 110r17 133r22 143m16 143r16
-54p4 out_fhandle_02{13|52P9} 111m17 111r17 136r59 144m16 144r16
-55p4 out_fhandle_03{13|52P9}
+54p4 out_fhandle_02{13|52P9} 111m17 111r17 140r64 144m16 144r16
+55p4 out_fhandle_03{13|52P9} 112m17 112r17 140r80 145m16 145r16
 57e4 out_fmode_01{13|53E9} 110r33
 58e4 out_fmode_02{13|53E9} 111r33
-59e4 out_fmode_03{13|53E9}
+59e4 out_fmode_03{13|53E9} 112r33
 61a4 out_fname_01{string} 110r47
 62a4 out_fname_02{string} 111r47
-63a4 out_fname_03{string}
+63a4 out_fname_03{string} 112r47
 67U14 display_help_file 67b14 84l8 84t25 91s7
 69p7 inp_fhandle{13|52P9} 75m18 75r18 78r35 79r66 83m18 83r18
 70e7 inp_fmode{13|53E9} 75r31
@@ -160,25 +163,27 @@ X 18 main_ada_strings_unbounded_edit.adb
 72r7 inp_UBlineStr{11|79R9} 79m10 80r62
 87U14 about_this_procedure 87b14 93l8 93t28
 X 19 pkg_ada_datetime_stamp.ads
-10K9*pkg_ada_datetime_stamp 18|14w6 30r28 19|27e27
+10K9*pkg_ada_datetime_stamp 18|12w6 29r28 19|27e27
 21U14*dtstamp 18|97s35 99s10 150s25 153s10
 X 20 pkg_ada_linestring_split.ads
-11K9*pkg_ada_linestring_split 18|16w6 32r28 20|24e29
-19U14*tokenize_line 18|136s13
+11K9*pkg_ada_linestring_split 18|14w6 31r28 20|24e29
 X 21 pkg_ada_realtime_delays.ads
-10K9*pkg_ada_realtime_delays 18|15w6 31r28 21|46e28
+10K9*pkg_ada_realtime_delays 18|13w6 30r28 21|46e28
 36U14*exec_display_execution_time 18|154s10
-X 22 strings_edit.ads
-132K9*strings_edit 18|17w6 33r28 22|335e17
-X 23 system.ads
+X 22 pkg_ada_vectorize_splitline.ads
+11K9*pkg_ada_vectorize_splitline 18|16w6 33r28 22|24e32
+19U14*vectorize_eachline 18|140s13
+X 23 strings_edit.ads
+132K9*strings_edit 18|15w6 32r28 23|335e17
+X 24 system.ads
 67M9*Address
-X 34 s-memory.ads
-53V13*Alloc{23|67M9} 103i<c,__gnat_malloc>22
+X 35 s-memory.ads
+53V13*Alloc{24|67M9} 103i<c,__gnat_malloc>22
 68U14*Free 104i<c,__gnat_free>22
-76V13*Realloc{23|67M9} 105i<c,__gnat_realloc>22
-X 42 s-stausa.ads
+76V13*Realloc{24|67M9} 105i<c,__gnat_realloc>22
+X 43 s-stausa.ads
 203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
 268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
-X 44 s-stalib.adb
+X 45 s-stalib.adb
 93U14 Break_Start 94i<c,__gnat_break_start>22
 

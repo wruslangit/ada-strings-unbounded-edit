@@ -37,7 +37,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#2b44eef5#;
+   u00001 : constant Version_32 := 16#e7526591#;
    pragma Export (C, u00001, "main_ada_strings_unbounded_editB");
    u00002 : constant Version_32 := 16#050ff2f0#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -447,14 +447,18 @@ package ada_main is
    pragma Export (C, u00204, "ada__real_time__delaysB");
    u00205 : constant Version_32 := 16#0a5c26d7#;
    pragma Export (C, u00205, "ada__real_time__delaysS");
-   u00206 : constant Version_32 := 16#58cefe3c#;
-   pragma Export (C, u00206, "strings_editB");
-   u00207 : constant Version_32 := 16#63d27009#;
-   pragma Export (C, u00207, "strings_editS");
-   u00208 : constant Version_32 := 16#2323a8af#;
-   pragma Export (C, u00208, "system__memoryB");
-   u00209 : constant Version_32 := 16#1f488a30#;
-   pragma Export (C, u00209, "system__memoryS");
+   u00206 : constant Version_32 := 16#27bc8084#;
+   pragma Export (C, u00206, "pkg_ada_vectorize_splitlineB");
+   u00207 : constant Version_32 := 16#e5d1dabf#;
+   pragma Export (C, u00207, "pkg_ada_vectorize_splitlineS");
+   u00208 : constant Version_32 := 16#58cefe3c#;
+   pragma Export (C, u00208, "strings_editB");
+   u00209 : constant Version_32 := 16#63d27009#;
+   pragma Export (C, u00209, "strings_editS");
+   u00210 : constant Version_32 := 16#2323a8af#;
+   pragma Export (C, u00210, "system__memoryB");
+   u00211 : constant Version_32 := 16#1f488a30#;
+   pragma Export (C, u00211, "system__memoryS");
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
@@ -663,6 +667,8 @@ package ada_main is
    --  pkg_ada_linestring_split%b
    --  pkg_ada_realtime_delays%s
    --  pkg_ada_realtime_delays%b
+   --  pkg_ada_vectorize_splitline%s
+   --  pkg_ada_vectorize_splitline%b
    --  strings_edit%s
    --  strings_edit%b
    --  main_ada_strings_unbounded_edit%b
