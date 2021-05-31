@@ -18,12 +18,12 @@ RV NO_ELABORATION_CODE
 RV NO_OBSOLESCENT_FEATURES
 RV SPARK_05
 
-U ada_main%b		b__main_ada_strings_unbounded_edit.adb  42119d09 OO PK IL
+U ada_main%b		b__main_ada_strings_unbounded_edit.adb  8b0e8c8a OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 Z system%s		system.ads		system.ali
 
-U ada_main%s		b__main_ada_strings_unbounded_edit.ads  96cf7693 EE NE OO PK IL
+U ada_main%s		b__main_ada_strings_unbounded_edit.ads  77890a9e EE NE OO PK IL
 W system%s		system.ads		system.ali
 W system.parameters%s	s-parame.adb		s-parame.ali
 W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
@@ -31,8 +31,8 @@ W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 D ada.ads		20200312110721 76789da1 ada%s
 D a-except.ads		20200312110721 291912d5 ada.exceptions%s
 D a-unccon.ads		20200312110721 0e9b276f ada.unchecked_conversion%s
-D b__main_ada_strings_unbounded_edit.ads  20210530160406 b8ad288a ada_main%s
-D b__main_ada_strings_unbounded_edit.adb  20210530160406 d3a5a756 ada_main%b
+D b__main_ada_strings_unbounded_edit.ads  20210531041316 59eb5487 ada_main%s
+D b__main_ada_strings_unbounded_edit.adb  20210531041316 fbfccad8 ada_main%b
 D system.ads		20200312110721 4635ec04 system%s
 D s-parame.ads		20200312110721 48ec542b system.parameters%s
 D s-secsta.ads		20200312110721 20bbe636 system.secondary_stack%s
@@ -44,7 +44,7 @@ X 1 ada.ads
 X 2 a-except.ads
 54K13*Exceptions 349e19 5|6w10
 X 4 b__main_ada_strings_unbounded_edit.ads
-6K9*ada_main 677l5 677e13 5|8b14 326l5 326t13
+6K9*ada_main 689l5 689e13 5|8b14 326l5 326t13
 8i4*gnat_argc{integer} 12m22 12r22 5|296m7
 9m4*gnat_argv{6|67M9} 13m22 13r22 5|297m7
 10m4*gnat_envp{6|67M9} 14m22 14r22 5|298m7
@@ -76,7 +76,7 @@ X 4 b__main_ada_strings_unbounded_edit.ads
 . 394r22 396r22 398r22 400r22 402r22 404r22 406r22 408r22 410r22 412r22 414r22
 . 416r22 418r22 420r22 422r22 424r22 426r22 428r22 430r22 432r22 434r22 436r22
 . 438r22 440r22 442r22 444r22 446r22 448r22 450r22 452r22 454r22 456r22 458r22
-. 460r22
+. 460r22 462r22 464r22 466r22 468r22
 40m4*u00001{39M9} 41r22
 42m4*u00002{39M9} 43r22
 44m4*u00003{39M9} 45r22
@@ -288,6 +288,10 @@ X 4 b__main_ada_strings_unbounded_edit.ads
 456m4*u00209{39M9} 457r22
 458m4*u00210{39M9} 459r22
 460m4*u00211{39M9} 461r22
+462m4*u00212{39M9} 463r22
+464m4*u00213{39M9} 465r22
+466m4*u00214{39M9} 467r22
+468m4*u00215{39M9} 469r22
 X 5 b__main_ada_strings_unbounded_edit.adb
 10i4 E073{short_integer} 10m46 10r46 207m7 207r15
 11i4 E011{short_integer} 11m46 11r46 214m7 214r15
@@ -325,7 +329,7 @@ X 5 b__main_ada_strings_unbounded_edit.adb
 43i4 E192{short_integer} 43m46 43r46 267m7 267r15
 44i4 E203{short_integer} 44m46 44r46 269m7 269r15
 45i4 E207{short_integer} 45m46 45r46 271m7 271r15
-46i4 E209{short_integer} 46m46 46r46 273m7 273r15
+46i4 E213{short_integer} 46m46 46r46 273m7 273r15
 48a4 Sec_Default_Sized_Stacks(8|45R9) 189m32 189r32
 50a4 Local_Priority_Specific_Dispatching{string} 176r9
 51a4 Local_Interrupt_States{string} 179r27

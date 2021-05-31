@@ -447,18 +447,26 @@ package ada_main is
    pragma Export (C, u00204, "ada__real_time__delaysB");
    u00205 : constant Version_32 := 16#0a5c26d7#;
    pragma Export (C, u00205, "ada__real_time__delaysS");
-   u00206 : constant Version_32 := 16#27bc8084#;
+   u00206 : constant Version_32 := 16#11427ec5#;
    pragma Export (C, u00206, "pkg_ada_vectorize_splitlineB");
    u00207 : constant Version_32 := 16#e5d1dabf#;
    pragma Export (C, u00207, "pkg_ada_vectorize_splitlineS");
-   u00208 : constant Version_32 := 16#58cefe3c#;
-   pragma Export (C, u00208, "strings_editB");
-   u00209 : constant Version_32 := 16#63d27009#;
-   pragma Export (C, u00209, "strings_editS");
-   u00210 : constant Version_32 := 16#2323a8af#;
-   pragma Export (C, u00210, "system__memoryB");
-   u00211 : constant Version_32 := 16#1f488a30#;
-   pragma Export (C, u00211, "system__memoryS");
+   u00208 : constant Version_32 := 16#8aa4f090#;
+   pragma Export (C, u00208, "system__img_realB");
+   u00209 : constant Version_32 := 16#819dbde6#;
+   pragma Export (C, u00209, "system__img_realS");
+   u00210 : constant Version_32 := 16#3e932977#;
+   pragma Export (C, u00210, "system__img_lluB");
+   u00211 : constant Version_32 := 16#3b7a9044#;
+   pragma Export (C, u00211, "system__img_lluS");
+   u00212 : constant Version_32 := 16#58cefe3c#;
+   pragma Export (C, u00212, "strings_editB");
+   u00213 : constant Version_32 := 16#63d27009#;
+   pragma Export (C, u00213, "strings_editS");
+   u00214 : constant Version_32 := 16#2323a8af#;
+   pragma Export (C, u00214, "system__memoryB");
+   u00215 : constant Version_32 := 16#1f488a30#;
+   pragma Export (C, u00215, "system__memoryS");
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
@@ -511,6 +519,8 @@ package ada_main is
    --  system.traceback_entries%s
    --  system.traceback_entries%b
    --  system.unsigned_types%s
+   --  system.img_llu%s
+   --  system.img_llu%b
    --  system.img_uns%s
    --  system.img_uns%b
    --  system.wch_con%s
@@ -612,6 +622,8 @@ package ada_main is
    --  ada.finalization%s
    --  system.file_io%s
    --  system.file_io%b
+   --  system.img_real%s
+   --  system.img_real%b
    --  system.linux%s
    --  system.multiprocessors%s
    --  system.multiprocessors%b

@@ -43,7 +43,7 @@ package body ada_main is
    E192 : Short_Integer; pragma Import (Ada, E192, "pkg_ada_linestring_split_E");
    E203 : Short_Integer; pragma Import (Ada, E203, "pkg_ada_realtime_delays_E");
    E207 : Short_Integer; pragma Import (Ada, E207, "pkg_ada_vectorize_splitline_E");
-   E209 : Short_Integer; pragma Import (Ada, E209, "strings_edit_E");
+   E213 : Short_Integer; pragma Import (Ada, E213, "strings_edit_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
@@ -270,7 +270,7 @@ package body ada_main is
       pkg_ada_vectorize_splitline'elab_body;
       E207 := E207 + 1;
       strings_edit'elab_spec;
-      E209 := E209 + 1;
+      E213 := E213 + 1;
    end adainit;
 
    procedure Ada_Main_Program;

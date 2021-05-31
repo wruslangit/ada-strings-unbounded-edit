@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Locations >
   <Project>
-    <vfs_file />
-    <file_marker column=" 31" line=" 16" >
+    <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_file>
+    <file_marker column=" 31" line=" 14" >
       <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
       <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/main_ada_strings_unbounded_edit.adb</vfs_file>
     </file_marker>
@@ -122,7 +122,7 @@
       <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
       <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-linestring-split/pkg_ada_linestring_split.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 16" line=" 144" >
+    <file_marker column=" 1" line=" 1" >
       <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
       <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/main_ada_strings_unbounded_edit.adb</vfs_file>
     </file_marker>
@@ -138,7 +138,51 @@
       <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
       <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-linestring-split/pkg_ada_linestring_split.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 12" line=" 136" >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/main_ada_strings_unbounded_edit.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/main_ada_strings_unbounded_edit.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 73" line=" 19" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-linestring-split/pkg_ada_linestring_split.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/main_ada_strings_unbounded_edit.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-vectorize-splitline/pkg_ada_vectorize_splitline.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-vectorize-splitline/pkg_ada_vectorize_splitline.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 96" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/main_ada_strings_unbounded_edit.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 16" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/main_ada_strings_unbounded_edit.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 15" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/main_ada_strings_unbounded_edit.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 296" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-vectorize-splitline/pkg_ada_vectorize_splitline.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 136" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/main_ada_strings_unbounded_edit.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 140" >
       <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
       <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/main_ada_strings_unbounded_edit.adb</vfs_file>
     </file_marker>
@@ -146,9 +190,85 @@
       <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
       <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/main_ada_strings_unbounded_edit.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 73" line=" 19" >
+    <file_marker column=" 111" line=" 140" >
       <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-linestring-split/pkg_ada_linestring_split.ads</vfs_file>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/main_ada_strings_unbounded_edit.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 76" line=" 84" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-vectorize-splitline/pkg_ada_vectorize_splitline.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 35" line=" 289" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-vectorize-splitline/pkg_ada_vectorize_splitline.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 85" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-vectorize-splitline/pkg_ada_vectorize_splitline.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 103" line=" 78" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-vectorize-splitline/pkg_ada_vectorize_splitline.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 123" line=" 21" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-vectorize-splitline/pkg_ada_vectorize_splitline.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 35" line=" 289" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-vectorize-splitline/pkg_ada_vectorize_splitline.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 287" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-vectorize-splitline/pkg_ada_vectorize_splitline.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 91" line=" 78" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-vectorize-splitline/pkg_ada_vectorize_splitline.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 287" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-vectorize-splitline/pkg_ada_vectorize_splitline.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 287" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-vectorize-splitline/pkg_ada_vectorize_splitline.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 287" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-vectorize-splitline/pkg_ada_vectorize_splitline.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 287" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-vectorize-splitline/pkg_ada_vectorize_splitline.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 287" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-vectorize-splitline/pkg_ada_vectorize_splitline.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 123" line=" 78" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-vectorize-splitline/pkg_ada_vectorize_splitline.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 115" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-vectorize-splitline/pkg_ada_vectorize_splitline.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 51" line=" 98" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-vectorize-splitline/pkg_ada_vectorize_splitline.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 87" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-vectorize-splitline/pkg_ada_vectorize_splitline.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 193" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-vectorize-splitline/pkg_ada_vectorize_splitline.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 16" line=" 189" >
+      <vfs_project>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/ada_strings_unbounded_edit.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/wruslangit/ada-strings-unbounded-edit/src/pkg-ada-vectorize-splitline/pkg_ada_vectorize_splitline.adb</vfs_file>
     </file_marker>
   </Project>
   <Project >
